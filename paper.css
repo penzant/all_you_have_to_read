@@ -1,0 +1,65 @@
+body {
+    font-size: 15px;
+    width: 800px;
+    margin: 20px;
+}
+
+span.tag > a, span.year  > a, span.sorting > a {
+    color: darkblue;
+}
+
+section {
+    padding: 3px;
+    margin: 10px;
+    border-left: 1px solid #483D8B;
+    border-bottom: 1px solid #483D8B;
+}
+
+div.title {
+    color: black;
+    font-size: 16px;
+    padding-left: 5px;
+    border-left: 5px black solid;
+}
+
+div.url > a {
+    color: darkblue;
+    font-size: 12px;
+    font-family: Lucida Sans,Lucida Sans Unicode,Arial,Helvetica,sans-serif;
+    font-style: italic;
+}
+
+div.tag {
+    font-size: 13px;
+}
+
+div.year {
+    font-size: 13px;
+}
+
+div.memo {
+    font-size: 14px;
+    display: inline;
+}
+
+div.read {
+    border-left: 5px #603030 solid;
+    padding-left: 5px;
+}
+
+div.memo > a {
+    color: darkblue;
+}
+
+span.unread:before {
+    content: 'unread??';
+    font-style: italic;
+    color: darkred;
+}
+
+h1 {
+    text-align: left !important;
+    border: none !important;
+    font-size: 2.2em !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
